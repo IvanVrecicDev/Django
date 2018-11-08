@@ -1,0 +1,6 @@
+*.py[co]
+*.swp
+*.egg-info
+.*
+!.gitignore
+docs/_build
