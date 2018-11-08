@@ -1,0 +1,5 @@
+{% load i18n %}<p>{% blocktrans with current_site.name as site_name %}User '{{ user }}' at {{ site_name }} has given this as an email address.{% endblocktrans %}</p>
+
+<p>{% blocktrans %}To confirm this is correct, click the link below:{% endblocktrans %}</p>
+
+<p><a href="{{ activate_url }}">{{ activate_url }}</a></p>
